@@ -27,19 +27,6 @@ public class Functions {
 	public void Move(Ship ship) {
 
 		Move move = new Move(ship, mapa);
-		// ship.move(move.SnifferHalite()));
-//		if (game.turnNumber >= 375) {
-//
-//			int b = 400 - Jogador.ships.size();
-//			Log.log("x> "+b);
-//			if (game.turnNumber >= b) {
-//				comandos.add(ship.move(move.forced(Jogador)));
-//			} else {
-//				Direction x = mapa.naiveNavigate(ship, Jogador.shipyard.position);
-//				comandos.add(ship.move(x));
-//			}
-//
-//		} else {
 		if (ship.halite >= 600 && !ship.isFull()) {
 			if (ship.position.equals(Jogador.shipyard.position)) {
 				Log.log("|" + Jogador.halite);
@@ -55,7 +42,6 @@ public class Functions {
 				comandos.add(ship.move(move.SnifferHalite()));
 			}
 		}
-//		}
 	}
 
 	public void CleanComandos() {
