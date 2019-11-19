@@ -11,4 +11,4 @@ Conquistas:
 - [x] Top 50 ==> **Universitários do Global em Java (49)**
 - [x] Top 15 ==> **Universitários do Brasil (13)**
 
-[Click Aqui para Ver Meu Perfil :)](https://halite.io/user/?user_id=8220)
+[Click Aqui para Ver Meu Perfil :)](https://2018.halite.io/user/?user_id=8220)
